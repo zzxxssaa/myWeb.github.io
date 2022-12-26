@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap網頁</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">我的吃貨and旅行日誌</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">台灣</a>
+              <div class="dropdown-menu">
+			    <a class="dropdown-item" href="Taipei.html">台北</a>
+                <a class="dropdown-item" href="Taichung.html">台中</a>
+                <a class="dropdown-item" href="Tn.html">台南</a>
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" data-bs-toggle="dropdown">國外</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Japan.html">日本</a>
+                <a class="dropdown-item" href="HK.html">韓國</a>
+              </div>
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入景點">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">台中美食集合</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>屋馬燒肉<small>（位於台中市西區公益路111號）</small></h2>
+            <p class="lead">獨特的鮮味雞湯搭配蔥花或味增醬，讓您在享受美味的燒肉之前先開開胃，和用來包肉的生菜及獨家醃漬的黃瓜均無限量供應。嚴選各種頂級肉品，依每種食材的特性搭配醬料醃漬處理，並提供烤肉醬、味增醬、椒鹽及蔥鹽等沾醬，讓燒肉美味多元呈現。</p>
+		    <p>燒肉要好吃是有祕訣的；用青翠的新鮮生菜包著熱滋滋的燒肉和泡菜，大口大口的品嚐，這多層次的口感，保證讓您回味無窮。。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="TCH-1.jpg" class="img-fluid">
+          </div>
+        </div>	
+		
+        <!-- 第二個景點 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>CMYK Gallery<small>(位於台中北區的一間複合式藝術空間)</small></h2>
+            <p class="lead">結合了畫畫、早午餐、咖啡廳以及藝廊，打造一處新型態餐飲空間，還有 IG 美照的繽紛壓克力顏料牆。</p>
+		    <p>可以一邊享受早午餐、下午茶，一邊盡情揮灑藝術創作靈感；另外沒有繪畫基礎的你也可以報名流動畫課程，在早晨或午後享受一個放空創作的美好時光，是非常超特別的台中文青景點。</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="TCH-2.jpg" class="img-fluid">
+          </div>
+        </div>
+		
+	    <!-- 第三個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>宮原眼科<small>（位於典雅歷史建築內的冰淇淋店）</small></h2>
+            <p class="lead">建造於西元1927年的「宮原眼科」是由日本眼科博士宮原武熊所興建，也是日治時代臺中規模最大的眼科診所，隨著時代的物換遷移，早已呈廢墟。</p>
+		    <p>宮原眼科成為一座令人嘆為觀止的建築，室內的裝潢也相當有氣勢，像極了哈利波特內霍格華茲學院的場景，來到宮原眼科，千萬不可錯過這裡招牌的冰淇淋，多種口味都是獨家特製配方，冰淇淋旁的配料更是讓人驚呼連連，整塊的土鳳梨酥、乳酪蛋糕、杏仁雪球等等，從沒見過的豐富冰淇淋就在宮原啦！
+
+</p>
+          </div>
+          <div class="col-md-5">
+            <img src="TCH-3.jpg" class="img-fluid">
+          </div>
+        </div>	  
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2022 楊凱程、陳昱諺middot;<a href="#">資訊科技系</a>&middot;<a href="#">2年D班</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap網頁</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">我的吃貨and旅行日誌</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">台灣</a>
+              <div class="dropdown-menu">
+			    <a class="dropdown-item" href="Taipei.html">台北</a>
+                <a class="dropdown-item" href="Taichung.html">台中</a>
+                <a class="dropdown-item" href="Tn.html">台南</a>
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" data-bs-toggle="dropdown">國外</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Japan.html">日本</a>
+                <a class="dropdown-item" href="HK.html">韓國</a>
+              </div>
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入景點">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">台南美食集合</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>文章牛肉湯<small>（位於安平運河）</small></h2>
+            <p class="lead">曾摘下Yahoo台南牛肉湯熱搜第一名，因生意興隆就算開店後都沒休息，店外幾乎無時無刻都大排長龍店內也都是人潮滿溢。</p>
+		    <p>在此店家更可以吃到夢幻溫體牛舌，經過大火快炒，依然保持著軟嫩多汁口感，是多數行家饕客的最愛。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="TN-1.jpg" class="img-fluid">
+          </div>
+        </div>	
+		
+        <!-- 第二個景點 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>王氏魚皮<small>(店家就在安平運河旁)</small></h2>
+            <p class="lead">是許多旅人列為必吃的安平美食，店家就在安平運河旁，距離另一名店文章牛肉湯不過幾步之遙。 運河兩側有不少停車格。</p>
+		    <p>店家也有自己的停車場相當便利。 王氏魚皮內用區可容納不少客人，要注意的是營業時間只到下午，真的是早午餐店來著。</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="TN-2.jpg" class="img-fluid">
+          </div>
+        </div>
+		
+	    <!-- 第三個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>矮仔成蝦仁飯<small>（海安路上六千牛肉湯的對面）</small></h2>
+            <p class="lead">西元1922年大正時期營業至今的【矮仔成蝦仁飯】已將邁入百年老店，店面也剛換新，讓用餐環境變得更加舒適。</p>
+		    <p>蝦仁飯是由高湯與白飯拌炒而成，口感類似日式炊飯，鋪上約十隻真材實料的蝦仁，配上米飯每一口都是幸福。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="TN-3.jpg" class="img-fluid">
+          </div>
+        </div>	  
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2022 楊凱程、陳昱諺&middot;<a href="#">資訊科技系</a>&middot;<a href="#">2年D班</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>

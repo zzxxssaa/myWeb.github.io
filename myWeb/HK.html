@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap網頁</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">我的吃貨and旅行日誌</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">台灣</a>
+              <div class="dropdown-menu">
+			    <a class="dropdown-item" href="Taipei.html">台北</a>
+                <a class="dropdown-item" href="Taichung.html">台中</a>
+                <a class="dropdown-item" href="Tn.html">台南</a>
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" data-bs-toggle="dropdown">國外</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Japan.html">日本</a>
+                <a class="dropdown-item" href="HK.html">韓國</a>
+              </div>
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入景點">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">韓國好去處</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>故宮<small>(韓國首爾鐘路區光化門廣場)</small></h2>
+            <p class="lead">这些古宫的基本构造相似，乍一看没有什么大不同，但是每座宫殿都有其独特的魅力与故事。</p>
+		    <p>來到古今交錯的首爾，怎麼可以錯過最知名最熱門的五大宮呢？以景福宮為首的五大宮是旅客來首爾自由行絕對不能錯過的景點，不論景福宮、昌德宮、昌慶宮、慶熙宮還是德壽宮，每一個宮闕都有自己的特色</p>
+          </div>
+          <div class="col-md-5">
+            <img src="HK-1.jpg" class="img-fluid">
+          </div>
+        </div>
+		
+        <!-- 第二個景點 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>弘大飯店<small>(首爾特別市麻浦區楊花路141)</small></h2>
+            <p class="lead"></p>
+		    <p>也是四星級酒店，距離地鐵弘大入口站9號出口3分鐘內抵達，由於2020年8月才開幕，整體建築包含房型皆是新穎現代的風格</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="HK-2.jpg" class="img-fluid">
+          </div>
+        </div>
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2022 楊凱程、陳昱諺&middot;<a href="#">資訊科技系</a>&middot;<a href="#">2年D班</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>

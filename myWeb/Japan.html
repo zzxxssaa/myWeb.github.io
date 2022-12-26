@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap網頁</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">我的吃貨and旅行日誌</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">台灣</a>
+              <div class="dropdown-menu">
+			    <a class="dropdown-item" href="Taipei.html">台北</a>
+                <a class="dropdown-item" href="Taichung.html">台中</a>
+                <a class="dropdown-item" href="Tn.html">台南</a>
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" data-bs-toggle="dropdown">國外</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Japan.html">日本</a>
+                <a class="dropdown-item" href="HK.html">韓國</a>
+              </div>
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入景點">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">日本好去處</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>淺草寺<small>(日本東京都台東區淺草二丁目)</small></h2>
+            <p class="lead">東京最古老的寺廟，西元 645 年為了供奉聖觀音而建。</p>
+			<p>作為東京代表性的觀光地，加上羽子板市、燈籠花市等活動，仍吸引觀光客與善信朝禮不絕。</p>
+          </div>
+          <div class="col-md-5">
+           <img src="JP-1.jpg" class="img-fluid">
+          </div>
+        </div>
+		
+        <!-- 第二個景點 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>萬屋 松籟莊<small>(長野県下高井郡山ノ内町平穏3137)</small></h2>
+            <p class="lead">於西元1790年左右興建的萬屋 松籟莊 ，整館建築使用珍貴木材打造而成，在這除了住宿之外，更有著純木建築而成的「桃山浴池」 ，而這裡的溫泉一樣是有著年代久遠的歷史，開湯至今已經有666年的時間，因此又被稱之為長壽之湯，在這裡泡湯不僅可以讓身心放鬆，更可以治療病痛、長命百歲。
+            找個休假時間。</p>
+		    <p>走訪一趟萬屋 松籟莊，親自來感受一晚歷史淵久的溫泉旅館的快樂時光吧。</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="JP-2.jpg" class="img-fluid">
+          </div>
+        </div>
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2022 楊凱程、陳昱諺&middot;<a href="#">資訊科技系</a>&middot;<a href="#">2年D班</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>

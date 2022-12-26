@@ -1,0 +1,99 @@
+。<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap網頁</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">我的吃貨and旅行日誌</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">台灣</a>
+              <div class="dropdown-menu">
+			    <a class="dropdown-item" href="Taipei.html">台北</a>
+                <a class="dropdown-item" href="Taichung.html">台中</a>
+                <a class="dropdown-item" href="Tn.html">台南</a>
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" data-bs-toggle="dropdown">國外</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Japan.html">日本</a>
+                <a class="dropdown-item" href="HK.html">韓國</a>
+              </div>
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入景點">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">台北美食集合</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>Burger Ray<small>（位於忠孝延吉街口的巷子裡）</small></h2>
+            <p class="lead">這間台北餐廳製作一顆專屬於自己口味的個性漢堡吧！除了配料可以自由選擇外，連肉排的熟度也能挑選，店內所有的漢堡肉都是選用相當於牛排館等級的美國Choice，鮮甜的肉汁被麵包完全吸收</p>
+		    <p>搭配自己選擇的辛香料、蔬菜和醬料，就算熱量破表也甘願！</p>
+          </div>
+          <div class="col-md-5">
+            <img src="TP-1.jpg" class="img-fluid">
+          </div>
+        </div>	
+		
+        <!-- 第二個景點 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>詹記麻辣火鍋<small>(位在新莊)</small></h2>
+            <p class="lead">台北火鍋必吃清單之一的「詹記麻辣火鍋」，店內有著大量的復古元素，走進店內猶如踏進時空隧道</p>
+		    <p>映入眼簾的是滿滿的懷舊和樸實感，招牌鴨血和肥牛更是深受各界老饕肯定，用平凡食材吃出新高度和感動</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="TP-2.jpg" class="img-fluid">
+          </div>
+        </div>
+		
+	    <!-- 第三個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>小小樹食<small>（鬧中取靜的敦化南路上）</small></h2>
+            <p class="lead">不只是近幾年IG人氣打卡網紅餐廳，最重要的是他們用心的蔬食料理改變了大眾對素食的既定印象！。</p>
+		    <p>這間台北餐廳裝潢也呼應蔬食形象，採光自然，以大樹為主體充滿生機。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="TP-3.jpg" class="img-fluid">
+          </div>
+        </div>	  
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2022 楊凱程、陳昱諺&middot;<a href="#">資訊科技系</a>&middot;<a href="#">2年D班</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>
